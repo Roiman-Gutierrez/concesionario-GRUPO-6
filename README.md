@@ -36,4 +36,21 @@ SELECT coches.modelo,coches.marca,coches.matricula
   
 </p>
 </details>
+<details><summary>Consulta 2</summary>
+<p>
+# # Selecciona el nombre del cliente y la matrícula del coche que ha sido reparado por un mecánico con un salario superior a 1000
+  ```SQL
+SELECT clientes.nombre, coches.matricula
+FROM clientes, coches, reparaciones, mecanicos
+WHERE clientes.dni = coches.clientes_dni
+AND coches.matricula = reparaciones.coches_matricula
+AND reparaciones.mecanicos_dni = mecanicos.dni
+AND mecanicos.salario > 1000;
+```
+<div>
+  <img src="consulta2.PNG" alt="Consulta Num 2">
+</div>
+  
+</p>
+</details>
 Ejercicio 6 base de datos ejercicio concesionario de coches llegan clientes para comprar automóviles.
