@@ -22,7 +22,8 @@ Los mecánicos tienen un dni, nombre, apellidos, fecha de contratación y salari
 
 </p>
 <br>
----
+<br>
+
 <details><summary>Consulta 1</summary>
 <p>
 # Mostrar Solo los cohces de la marca TOYOTA con su modelo y matricula
@@ -33,7 +34,8 @@ SELECT coches.modelo,coches.marca,coches.matricula
 <div>
   <img src="consulta1.PNG" alt="Consulta Num 1">
 </div>
-  
+  <br>
+  <br>
 </p>
 </details>
 <details><summary>Consulta 2</summary>
@@ -53,4 +55,6 @@ AND mecanicos.salario > 1000;
   
 </p>
 </details>
+<br>
+<br>
 Ejercicio 6 base de datos ejercicio concesionario de coches llegan clientes para comprar automóviles.
