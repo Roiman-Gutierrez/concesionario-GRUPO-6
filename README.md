@@ -57,4 +57,21 @@ AND mecanicos.salario > 1000;
 </details>
 <br>
 <br>
-Ejercicio 6 base de datos ejercicio concesionario de coches llegan clientes para comprar automóviles.
+</details>
+<details><summary>Consulta 3</summary>
+<p>
+## Seleciona el DNi del cliente y muestra su nombre y apellido tambien las caracteristicas del carro que le pertenece
+  ```SQL
+SELECT cl.nombre, cl.apellidos, cl.dni, co.matricula, co.modelo, co.marca, co.color
+FROM clientes AS cl
+INNER JOIN coches AS co ON cl.dni = co.clientes_dni;
+```
+<div>
+  <img src="consulta3.PNG" alt="Consulta Num 3">
+</div>
+  
+</p>
+</details>
+<br>
+<br>
+
