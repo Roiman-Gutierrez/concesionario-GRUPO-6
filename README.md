@@ -22,25 +22,29 @@ Los mecánicos tienen un dni, nombre, apellidos, fecha de contratación y salari
 
 </p>
 <br>
-<br>
-
 <details><summary>Consulta 1</summary>
+ 
 <p>
-# Mostrar Solo los cohces de la marca TOYOTA con su modelo y matricula
+  
+## Mostrar Solo los cohces de la marca TOYOTA con su modelo y matricula
+  
   ```SQL
 SELECT coches.modelo,coches.marca,coches.matricula
  FROM ejercicio_6.coches WHERE MARCA='TOYOTA';
 ```
+  
 <div>
   <img src="consulta1.PNG" alt="Consulta Num 1">
 </div>
-  <br>
-  <br>
 </p>
+<br>
 </details>
 <details><summary>Consulta 2</summary>
+  
 <p>
+  
 # # Selecciona el nombre del cliente y la matrícula del coche que ha sido reparado por un mecánico con un salario superior a 1000
+  
   ```SQL
 SELECT clientes.nombre, coches.matricula
 FROM clientes, coches, reparaciones, mecanicos
@@ -49,29 +53,30 @@ AND coches.matricula = reparaciones.coches_matricula
 AND reparaciones.mecanicos_dni = mecanicos.dni
 AND mecanicos.salario > 1000;
 ```
+  
 <div>
   <img src="consulta2.PNG" alt="Consulta Num 2">
 </div>
-  
 </p>
 </details>
 <br>
-<br>
-</details>
 <details><summary>Consulta 3</summary>
+  
 <p>
+  
 ## Seleciona el DNi del cliente y muestra su nombre y apellido tambien las caracteristicas del carro que le pertenece
+  
   ```SQL
 SELECT cl.nombre, cl.apellidos, cl.dni, co.matricula, co.modelo, co.marca, co.color
 FROM clientes AS cl
 INNER JOIN coches AS co ON cl.dni = co.clientes_dni;
 ```
+  
 <div>
   <img src="consulta3.PNG" alt="Consulta Num 3">
 </div>
-  
 </p>
+<br>
 </details>
-<br>
-<br>
+
 
