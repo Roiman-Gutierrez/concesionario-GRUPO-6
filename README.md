@@ -25,6 +25,13 @@ Los mecánicos tienen un dni, nombre, apellidos, fecha de contratación y salari
 ---
 <details><summary>Consulta 1</summary>
 <p>
+# Mostrar Solo los cohces de la marca TOYOTA con su modelo y matricula
+  ```SQL
+SELECT coches.modelo,coches.marca,coches.matricula
+ FROM ejercicio_6.coches WHERE MARCA='TOYOTA';
+```
+
+  
 </p>
 </details>
 Ejercicio 6 base de datos ejercicio concesionario de coches llegan clientes para comprar automóviles.
