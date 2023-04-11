@@ -17,7 +17,7 @@ Los mecánicos tienen un dni, nombre, apellidos, fecha de contratación y salari
 
 
 <div>
-  <img src="concesionario/grafica.jpg" alt="Ejercicio grafico num 6">
+  <img src="grafica.JPG" alt="Ejercicio grafico num 6">
 </div>
 
 </p>
