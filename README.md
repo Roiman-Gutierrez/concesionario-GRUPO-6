@@ -31,7 +31,7 @@ SELECT coches.modelo,coches.marca,coches.matricula
  FROM ejercicio_6.coches WHERE MARCA='TOYOTA';
 ```
 <div>
-  <img src="grafica.JPG" alt="Ejercicio grafico num 6">
+  <img src="consulta1.PNG" alt="Consulta Num 1">
 </div>
   
 </p>
