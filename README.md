@@ -21,4 +21,10 @@ Los mecánicos tienen un dni, nombre, apellidos, fecha de contratación y salari
 </div>
 
 </p>
+<br>
+---
+<details><summary>Consulta 1</summary>
+<p>
+</p>
+</details>
 Ejercicio 6 base de datos ejercicio concesionario de coches llegan clientes para comprar automóviles.
