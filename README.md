@@ -30,7 +30,9 @@ Los mecánicos tienen un dni, nombre, apellidos, fecha de contratación y salari
 SELECT coches.modelo,coches.marca,coches.matricula
  FROM ejercicio_6.coches WHERE MARCA='TOYOTA';
 ```
-
+<div>
+  <img src="grafica.JPG" alt="Ejercicio grafico num 6">
+</div>
   
 </p>
 </details>
